@@ -11,3 +11,27 @@
 [2025-04-03 17:40:42] INFO: Connected to SQLite database 'company.db'.
 [2025-04-03 17:40:42] INFO: Schema conflict detected.
 [2025-04-03 17:40:43] INFO: User chose to skip table creation and data insertion.
+[2025-04-03 17:58:33] INFO: User listed tables in the database.
+[2025-04-03 17:58:55] ERROR: SQL query failed: near "exit": syntax error
+[2025-04-03 17:59:03] INFO: User chose to exit the chatbot.
+[2025-04-03 17:59:03] INFO: SQLite connection closed. Script completed.
+[2025-04-03 18:00:09] INFO: CSV file 'data.csv' loaded successfully.
+[2025-04-03 18:00:12] INFO: Table 'data' created.
+[2025-04-03 18:00:12] INFO: Data inserted into table 'data'.
+[2025-04-03 18:00:15] INFO: User listed tables in the database.
+[2025-04-03 18:00:20] INFO: User chose to exit the chatbot.
+[2025-04-03 18:00:20] INFO: SQLite connection closed. Script completed.
+[2025-04-03 18:03:11] INFO: User chose to exit the chatbot.
+[2025-04-03 18:03:11] INFO: SQLite connection closed. Script completed.
+[2025-04-03 18:03:13] INFO: CSV file 'data.csv' loaded successfully.
+[2025-04-03 18:03:13] INFO: Connected to SQLite database 'company.db'.
+[2025-04-03 18:03:13] INFO: Schema conflict detected.
+[2025-04-03 18:03:15] INFO: Table 'employees' dropped.
+[2025-04-03 18:03:15] INFO: Table 'employees' created or confirmed.
+[2025-04-03 18:03:15] INFO: Data inserted into table 'employees'.
+[2025-04-03 18:03:15] INFO: Retrieved and displayed data from 'employees'.
+[2025-04-03 18:03:15] INFO: SQLite connection closed. Script completed successfully.
+
+[2025-04-03 18:04:23] INFO: User listed tables in the database.
+[2025-04-03 18:04:26] INFO: User chose to exit the chatbot.
+[2025-04-03 18:04:26] INFO: SQLite connection closed. Script completed.
