@@ -7,7 +7,10 @@ import openai  # Make sure you have openai package installed
 from datetime import datetime
 
 # Set up OpenAI API key
-openai.api_key = "INSERT_API_KEY_HERE"  # Replace with your OpenAI API key
+openai.api_key = os.getenv("OPENAI_API_KEY")
+if not openai.api_key:
+    raise ValueError("OpenAI API key not found. Please set the OPENAI_API_KEY environment variable.")
+
 # Function to log errors
 def log_error(error_msg):
     with open("error_log.txt", "a") as f:
